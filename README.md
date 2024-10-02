@@ -73,10 +73,3 @@ The goal of this project is to develop a machine learning model that can predict
 - **Scikit-learn Documentation**: https://scikit-learn.org/stable/
 - **Joblib Documentation**: https://joblib.readthedocs.io/en/latest/
 """
-
-# Save the content to a text file
-file_path = '/mnt/data/model_explanation.txt'
-with open(file_path, 'w') as f:
- f.write(content)
-
-file_path
