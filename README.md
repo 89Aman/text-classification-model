@@ -1,5 +1,3 @@
-# Creating the content for the text file
-content = """
 # Text Classification Model for Predicting IAB Categories
 
 ## 1. Approach Overview
