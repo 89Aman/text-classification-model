@@ -34,17 +34,6 @@ The goal of this project is to develop a machine learning model that can predict
 
 - **Stop Words Removal**: Stop words (like "the", "is", "in") are common words that do not provide meaningful information in most text classification tasks. By removing these stop words, we reduced the dimensionality of the input text and improved model performance.
 
-## 3. Tools Used
-
-- **Python**: The entire project is implemented in Python.
-- **Pandas**: Used to load and manipulate the CSV files.
-- **Scikit-learn**:
-  - `HashingVectorizer`: Used for feature extraction from the text.
-  - `LinearSVC` and `MultinomialNB`: Two machine learning models used for training and prediction.
-  - `parallel_backend` and `joblib`: For parallel processing to speed up model training.
-- **Joblib**: For parallel processing to utilize all CPU cores during model training.
-- **Argparse**: To handle command-line arguments and easily switch between model types.
-
 ## 4. Source Files
 
 - **text-classification-model.py**: The Python script that loads the training and test data, vectorizes the text, trains the model, makes predictions, and saves the results.
@@ -68,9 +57,4 @@ The goal of this project is to develop a machine learning model that can predict
 - **Hyperparameter Tuning**: Grid search or random search could be used to tune hyperparameters and improve model performance.
 - **Ensemble Models**: Combining multiple models (e.g., SVM + Naive Bayes) using an ensemble approach might yield better predictions.
 - **Cloud-Based Solution**: For even faster processing of large datasets, a cloud-based service with GPU acceleration could be used.
-
-## 7. Sources and References
-- **Scikit-learn Documentation**: https://scikit-learn.org/stable/
-- **Joblib Documentation**: https://joblib.readthedocs.io/en/latest/
-- **Download Dataset**: https://drive.google.com/drive/folders/1ZDRLD7nmnIf5QUQFxLsUUpMmioKYwEMl?usp=sharing
 
